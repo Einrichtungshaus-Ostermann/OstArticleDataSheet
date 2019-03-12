@@ -88,7 +88,10 @@
         </tbody>
     </table>
     <div>
-        {foreach $product->getMedia() as $media}
+        {foreach $product->getMedia() as $key => $media}
+            {if $key == 0}
+                {continue}
+            {/if}
             <img src="{$media->getThumbnail(0)->getSource()}" alt="" style="margin:0 5px 5px 0;" class="image-thumbnail"/>
         {/foreach}
     </div>

@@ -3,10 +3,13 @@
 /**
  * Einrichtungshaus Ostermann GmbH & Co. KG - Article Data Sheet
  *
- * Article .pdf data sheets
+ * Create article .pdf data sheets.
  *
  * 1.0.0
  * - initial release
+ *
+ * 1.0.1
+ * - removed first image from additional images
  *
  * @package   OstArticleDataSheet
  *
